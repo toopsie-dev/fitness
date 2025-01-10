@@ -1,5 +1,13 @@
+import BannerComponent from "./components/BannerComponent";
+import NavbarComponent from "./components/Navbar/NavbarComponent";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <NavbarComponent />
+      <BannerComponent />
+    </>
+  );
 }
 
 export default App;
