@@ -1,7 +1,6 @@
 import style from "../../css/classes.module.css";
-const ClassesCardComponent = ({ classes }) => {
-  console.log(classes);
 
+const ClassesCardComponent = ({ classes }) => {
   return (
     <div className={style["body-container"]}>
       {classes.map((prop, index) => (
