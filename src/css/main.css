@@ -9,7 +9,7 @@ body,
 html,
 button {
   font-family: "Kanit", serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 60px;

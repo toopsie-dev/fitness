@@ -12,6 +12,7 @@
   background-size: cover;
   display: grid;
   align-content: center;
+  position: relative;
 }
 .content-width:before {
   content: "";
@@ -20,6 +21,7 @@
   right: 0;
   top: 0;
   bottom: 0;
+  /* height: 1000px; */
   background: rgba(0, 0, 0, 0.6);
 }
 .banner-container {
@@ -75,6 +77,9 @@
   .content-width {
     padding: 0 50px;
   }
+  /* .content-width:before {
+    height: 100vh;
+  } */
   .banner-container h1 {
     font-size: 70px;
   }

@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-width {
+  max-width: 1920px;
+  width: 100%;
+  padding: 60px 150px;
+  background-color: #141414;
+  display: flex;
+  justify-content: space-around;
+}
+.goal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 1200px;
+}
+.goal-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.goal-card-title h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 769px) {
+  .content-width {
+    padding: 50px 100px;
+  }
+  .goal-container .goal-card:nth-child(2) img {
+    width: 45px;
+    height: 45px;
+  }
+  .goal-card img {
+    width: 40px;
+    height: 45px;
+  }
+  .goal-card-title h5 {
+    font-size: 16px;
+  }
+  .goal-card {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .content-width {
+    padding: 50px;
+  }
+  .goal-container .goal-card:nth-child(2) img {
+    width: 35px;
+    height: 35px;
+  }
+  .goal-card img {
+    width: 30px;
+    height: 35px;
+  }
+  .goal-card-title h5 {
+    font-size: 14px;
+  }
+  .goal-card {
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .content-width {
+    padding: 30px;
+  }
+  .goal-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .goal-container .goal-card:nth-child(2) img {
+    width: 35px;
+    height: 35px;
+  }
+  .goal-card img {
+    width: 30px;
+    height: 35px;
+  }
+  .goal-card-title h5 {
+    font-size: 14px;
+  }
+  .goal-card {
+    gap: 15px;
+  }
+}
