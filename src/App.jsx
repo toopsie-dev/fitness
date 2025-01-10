@@ -1,3 +1,4 @@
+import AboutComponent from "./components/AboutComponent";
 import BannerComponent from "./components/BannerComponent";
 import ClassesComponent from "./components/Classes/ClassesComponent";
 import CoachComponent from "./components/Coach/CoachComponent";
@@ -12,6 +13,7 @@ function App() {
       <GoalComponent />
       <ClassesComponent />
       <CoachComponent />
+      <AboutComponent />
     </>
   );
 }
