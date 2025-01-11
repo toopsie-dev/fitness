@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  max-width: 1200px;
+  max-width: 1440px;
   width: 100%;
   color: white;
 }
@@ -47,9 +47,9 @@
   font-size: 50px;
 }
 .body-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 20px; */
 }
 .student-card {
   display: flex;
@@ -72,12 +72,10 @@
   text-align: center;
 }
 .student-box {
-  position: absolute;
-  bottom: -120px;
+  transform: translateY(-50px);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
 }
 .student-box img {
   transform: scale(0.9);
@@ -90,6 +88,8 @@
 .student-box h6 {
   font-size: 14px;
   font-weight: 400;
+  opacity: 0.6;
+  color: white;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
@@ -106,7 +106,7 @@
     padding: 80px;
   }
   .testimonial-container {
-    gap: 30px;
+    gap: 50px;
   }
   .sub-title {
     font-size: 16px;
@@ -121,7 +121,7 @@
     padding: 80px 30px;
   }
   .testimonial-container {
-    gap: 0px;
+    gap: 50px;
   }
   .title-container {
     align-items: center;

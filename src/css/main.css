@@ -49,6 +49,20 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
+.slick-track {
+  display: flex;
+  gap: 1rem;
+}
+.slick-dots li button:before {
+  color: #ed0d0d;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ed0d0d;
+}
+ul.slick-dots li button {
+  transform: scale(1.5);
+}
 
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
   button {
