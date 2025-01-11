@@ -4,6 +4,7 @@ import ClassesComponent from "./components/Classes/ClassesComponent";
 import CoachComponent from "./components/Coach/CoachComponent";
 import GoalComponent from "./components/Goal/GoalComponent";
 import NavbarComponent from "./components/Navbar/NavbarComponent";
+import PlanComponent from "./components/Plan/PlanComponent";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ClassesComponent />
       <CoachComponent />
       <AboutComponent />
+      <PlanComponent />
     </>
   );
 }
