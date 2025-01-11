@@ -5,6 +5,7 @@ import CoachComponent from "./components/Coach/CoachComponent";
 import GoalComponent from "./components/Goal/GoalComponent";
 import NavbarComponent from "./components/Navbar/NavbarComponent";
 import PlanComponent from "./components/Plan/PlanComponent";
+import TestimonialComponent from "./components/Testimonial/TestimonialComponent";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CoachComponent />
       <AboutComponent />
       <PlanComponent />
+      <TestimonialComponent />
     </>
   );
 }
