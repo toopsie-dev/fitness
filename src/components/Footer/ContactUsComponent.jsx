@@ -1,9 +1,9 @@
 import style from "../../css/footer.module.css";
 
-const ContactUsComponent = () => {
+const ContactUsComponent = ({ hideTitle }) => {
   return (
     <div className={style["contact-us-container"]}>
-      <h3>Contact us</h3>
+      {hideTitle ? "" : <h3>Contact us</h3>}
       <ul className={style["contact-details"]}>
         <li>
           <a href="">

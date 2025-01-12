@@ -11,7 +11,7 @@ const FooterComponent = () => {
         <div className={style["footer-container"]}>
           <div className={style["top"]}>
             <SocialMediaComponent />
-            <ContactUsComponent />
+            <ContactUsComponent hideTitle={false} />
             <NewsLetterComponent />
           </div>
           <CopyrightComponent />

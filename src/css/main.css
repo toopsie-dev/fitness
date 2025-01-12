@@ -21,8 +21,14 @@ h3 {
 p {
   font-size: 18px;
 }
-input {
+input,
+textarea {
   font-family: "Kanit", serif;
+  width: 100%;
+  font-size: 18px;
+  padding: 13px;
+  margin-bottom: 20px;
+  outline: none;
 }
 button {
   padding: 20px 40px;
@@ -87,5 +93,12 @@ ul.slick-dots li button {
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .content-width {
     padding: 0 30px;
+  }
+  input {
+    font-size: 16px;
+  }
+  button {
+    padding: 15px 40px;
+    font-size: 14px;
   }
 }

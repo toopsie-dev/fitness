@@ -4,6 +4,7 @@ import BannerComponent from "./components/BannerComponent";
 import BlogComponent from "./components/Blog/BlogComponent";
 import ClassesComponent from "./components/Classes/ClassesComponent";
 import CoachComponent from "./components/Coach/CoachComponent";
+import ContactComponent from "./components/Contact/ContactComponent";
 import FooterComponent from "./components/Footer/FooterComponent";
 import GoalComponent from "./components/Goal/GoalComponent";
 import InspirationComponent from "./components/InspirationComponent";
@@ -24,6 +25,7 @@ function App() {
         <PlanComponent />
         <TestimonialComponent />
         <BlogComponent />
+        <ContactComponent />
         <InspirationComponent />
         <FooterComponent />
       </AppProvider>
