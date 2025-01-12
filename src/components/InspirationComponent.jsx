@@ -1,6 +1,10 @@
+import { useContext } from "react";
+import AppContext from "../context/AppContext";
 import style from "../css/inspiration.module.css";
 
 const InspirationComponent = () => {
+  const { handleRedirection } = useContext(AppContext);
+
   return (
     <div className={style["container"]}>
       <div className={style["content-width"]}>
@@ -15,7 +19,9 @@ const InspirationComponent = () => {
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
               erat, sed diam voluptua.
             </p>
-            <button>select a plan</button>
+            <button onClick={() => handleRedirection("plan-section")}>
+              select a plan
+            </button>
           </div>
         </div>
       </div>

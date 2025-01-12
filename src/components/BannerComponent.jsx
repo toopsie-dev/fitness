@@ -1,6 +1,10 @@
+import { useContext } from "react";
+import AppContext from "../context/AppContext";
 import style from "../css/banner.module.css";
 
 const BannerComponent = () => {
+  const { handleRedirection } = useContext(AppContext);
+
   return (
     <div className={style["container"]}>
       <div className={style["content-width"]}>
@@ -11,7 +15,9 @@ const BannerComponent = () => {
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             nonumy eirmod tempor invidunt ut labore et dolore magna.
           </p>
-          <button>select a plan</button>
+          <button onClick={() => handleRedirection("plan-section")}>
+            select a plan
+          </button>
         </div>
       </div>
     </div>

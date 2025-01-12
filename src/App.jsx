@@ -1,4 +1,5 @@
 import AboutComponent from "./components/AboutComponent";
+import AppProvider from "./components/AppProvider";
 import BannerComponent from "./components/BannerComponent";
 import BlogComponent from "./components/Blog/BlogComponent";
 import ClassesComponent from "./components/Classes/ClassesComponent";
@@ -12,16 +13,18 @@ import TestimonialComponent from "./components/Testimonial/TestimonialComponent"
 function App() {
   return (
     <>
-      <NavbarComponent />
-      <BannerComponent />
-      <GoalComponent />
-      <ClassesComponent />
-      <CoachComponent />
-      <AboutComponent />
-      <PlanComponent />
-      <TestimonialComponent />
-      <BlogComponent />
-      <InspirationComponent />
+      <AppProvider>
+        <NavbarComponent />
+        <BannerComponent />
+        <GoalComponent />
+        <ClassesComponent />
+        <CoachComponent />
+        <AboutComponent />
+        <PlanComponent />
+        <TestimonialComponent />
+        <BlogComponent />
+        <InspirationComponent />
+      </AppProvider>
     </>
   );
 }

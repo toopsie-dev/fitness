@@ -6,7 +6,7 @@ const PlanComponent = () => {
   return (
     <>
       <PlanProvider>
-        <div className={style["container"]}>
+        <div className={style["container"]} id="plan-section">
           <div className={style["content-width"]}>
             <div className={style["plan-container"]}>
               <div className={style["title-container"]}>
