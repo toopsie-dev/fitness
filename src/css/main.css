@@ -21,6 +21,9 @@ h3 {
 p {
   font-size: 18px;
 }
+input {
+  font-family: "Kanit", serif;
+}
 button {
   padding: 20px 40px;
   background-color: #db231f;
