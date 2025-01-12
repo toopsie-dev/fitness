@@ -7,18 +7,30 @@
   max-width: 1920px;
   width: 100%;
   padding: 120px 50px;
-  display: flex;
-  justify-content: space-around;
-  background-color: #141414;
+  background: url("src/assets/inspiration-bg.png") no-repeat center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: white;
 }
-.testimonial-container {
+.content-width::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.76);
+}
+.inspiration-container {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  max-width: 1440px;
+  max-width: 800px;
   width: 100%;
   color: white;
+  z-index: 10;
 }
 .title-container {
   display: flex;
@@ -45,53 +57,26 @@
 }
 .title {
   font-size: 50px;
-}
-.student-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.testimonial-box {
-  padding: 40px 40px 100px 40px;
-  background-color: rgba(255, 0, 0, 0.041);
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.testimonial-box p {
   text-align: center;
+  line-height: 1.2;
 }
-.student-box {
-  transform: translateY(-50px);
+.body-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
-.student-box img {
-  transform: scale(0.9);
-}
-.student-box h3 {
-  margin-top: 15px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.student-box h6 {
-  font-size: 14px;
-  font-weight: 400;
-  opacity: 0.6;
-  color: white;
+.body-container p {
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
   .content-width {
     padding: 100px;
   }
-  .testimonial-container {
+  .inspiration-container {
     gap: 50px;
   }
 }
@@ -100,8 +85,12 @@
   .content-width {
     padding: 80px;
   }
-  .testimonial-container {
-    gap: 50px;
+  .inspiration-container {
+    gap: 20px;
+  }
+  .title-container {
+    align-items: center;
+    gap: 10px;
   }
   .sub-title {
     font-size: 16px;
@@ -115,8 +104,8 @@
   .content-width {
     padding: 80px 30px;
   }
-  .testimonial-container {
-    gap: 50px;
+  .inspiration-container {
+    gap: 30px;
   }
   .title-container {
     align-items: center;
@@ -127,5 +116,8 @@
   .title {
     font-size: 35px;
     text-align: center;
+  }
+  .body-container {
+    justify-content: center;
   }
 }

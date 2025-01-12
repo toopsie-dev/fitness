@@ -7,16 +7,15 @@
   max-width: 1920px;
   width: 100%;
   padding: 120px 50px;
+  background-color: #0c0c0c;
   display: flex;
   justify-content: space-around;
-  background-color: #141414;
-  background-size: cover;
 }
-.testimonial-container {
+.blog-container {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   color: white;
 }
@@ -24,7 +23,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-transform: uppercase;
 }
 .sub-title:before {
@@ -46,53 +45,52 @@
 .title {
   font-size: 50px;
 }
-.student-card {
+.body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blog-card {
+  width: 33.3%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  gap: 5px;
+  margin-top: 30px;
+  padding: 10px;
 }
-.testimonial-box {
-  padding: 40px 40px 100px 40px;
-  background-color: rgba(255, 0, 0, 0.041);
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+.blog-card img {
+  width: 100%;
+  object-fit: cover;
 }
-.testimonial-box p {
-  text-align: center;
+.blog-details {
+  display: inline-block;
+  width: 100%;
 }
-.student-box {
-  transform: translateY(-50px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.blog-details span:nth-child(2) {
+  color: #db231f;
+  float: right;
 }
-.student-box img {
-  transform: scale(0.9);
-}
-.student-box h3 {
-  margin-top: 15px;
-  font-size: 20px;
+.blog-card h3 {
+  margin-top: 10px;
+  font-size: 24px;
   text-transform: uppercase;
 }
-.student-box h6 {
+.blog-card p {
   font-size: 14px;
-  font-weight: 400;
-  opacity: 0.6;
-  color: white;
+}
+.blog-button {
+  margin-top: 50px;
+  align-self: center;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
   .content-width {
     padding: 100px;
   }
-  .testimonial-container {
-    gap: 50px;
+  .blog-container {
+    gap: 10px;
   }
 }
 
@@ -100,8 +98,11 @@
   .content-width {
     padding: 80px;
   }
-  .testimonial-container {
-    gap: 50px;
+  .blog-container {
+    gap: 20px;
+  }
+  .title-container {
+    align-items: center;
   }
   .sub-title {
     font-size: 16px;
@@ -109,14 +110,20 @@
   .title {
     font-size: 45px;
   }
+  .blog-card {
+    width: 50%;
+  }
+  .blog-button {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 480px) and (min-width: 320px) {
   .content-width {
     padding: 80px 30px;
   }
-  .testimonial-container {
-    gap: 50px;
+  .blog-container {
+    gap: 10px;
   }
   .title-container {
     align-items: center;
@@ -127,5 +134,14 @@
   .title {
     font-size: 35px;
     text-align: center;
+  }
+  .body-container {
+    justify-content: center;
+  }
+  .blog-card {
+    width: 100%;
+  }
+  .blog-button {
+    margin-top: 20px;
   }
 }
