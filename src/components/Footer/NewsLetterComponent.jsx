@@ -10,7 +10,7 @@ const NewsLetterComponent = () => {
     <div className={style["newsletter-container"]}>
       <h3>Newsletter</h3>
       <form onSubmit={handleSubmit}>
-        <input type="email" name="email" placeholder="Email Address" />
+        <input type="email" name="email" placeholder="Email Address" required />
         <button type="submit">subscribe</button>
       </form>
     </div>
