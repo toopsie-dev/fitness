@@ -9,7 +9,7 @@ const DesktopNavbarComponent = () => {
     <>
       <nav className="navbar display-flex content-width">
         <div className="logo-container">
-          <img src="src/assets/navbar-logo.png" alt="fitness Logo" />
+          <img src="/fitness/src/assets/navbar-logo.png" alt="fitness Logo" />
         </div>
         <div className="navbar-item-container display-flex">
           {/* Desktop Navigation Bar */}
