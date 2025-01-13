@@ -4,15 +4,15 @@ import GoalCardComponent from "./GoalCardComponent";
 const GoalComponent = () => {
   const gymGoals = [
     {
-      icon_url: "/fitness/src/assets/achievement.png",
+      icon_url: "./images/achievement.png",
       title: "Gain weight/muscle",
     },
     {
-      icon_url: "/fitness/src/assets/retain.png",
+      icon_url: "./images/retain.png",
       title: "Improve your mobility",
     },
     {
-      icon_url: "/fitness/src/assets/time.png",
+      icon_url: "./images/time.png",
       title: "Get healthy in body and mind",
     },
   ];
