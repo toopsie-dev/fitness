@@ -158,6 +158,7 @@
   .copyright-container {
     font-size: 14px;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     text-align: center;
   }
