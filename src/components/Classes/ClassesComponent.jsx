@@ -5,37 +5,37 @@ const ClassesComponent = () => {
   const classes = [
     {
       title: "Classes One",
-      icon_url: "src/assets/class-one.png",
+      icon_url: "./images/class-one.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },
     {
       title: "Classes Two",
-      icon_url: "src/assets/class-two.png",
+      icon_url: "./images/class-two.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },
     {
       title: "Classes Three",
-      icon_url: "src/assets/class-three.png",
+      icon_url: "./images/class-three.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },
     {
       title: "Classes Four",
-      icon_url: "src/assets/class-four.png",
+      icon_url: "./images/class-four.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },
     {
       title: "Classes Five",
-      icon_url: "src/assets/class-five.png",
+      icon_url: "./images/class-five.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },
     {
       title: "Classes Six",
-      icon_url: "src/assets/class-six.png",
+      icon_url: "./images/class-six.png",
       description:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
     },

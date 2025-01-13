@@ -7,7 +7,7 @@
   max-width: 1920px;
   width: 100%;
   padding: 120px 50px;
-  background: url("../assets/inspiration-bg.png") no-repeat center;
+  background: url("./images/inspiration-bg.png") no-repeat center;
   background-size: cover;
   display: flex;
   justify-content: center;

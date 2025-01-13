@@ -8,21 +8,21 @@ const TestimonialComponent = () => {
       position: "Gym Student",
       testimonial:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      img_url: "src/assets/testimonial-one.png",
+      img_url: "./images/testimonial-one.png",
     },
     {
       name: "ann criz",
       position: "Gym Student",
       testimonial:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      img_url: "src/assets/testimonial-two.png",
+      img_url: "./images/testimonial-two.png",
     },
     {
       name: "mort sins",
       position: "Gym Student",
       testimonial:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-      img_url: "src/assets/testimonial-three.png",
+      img_url: "./images/testimonial-three.png",
     },
   ];
 

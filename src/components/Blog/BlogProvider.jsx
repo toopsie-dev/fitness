@@ -4,7 +4,7 @@ import BlogContext from "../../context/BlogContext";
 const BlogProvider = ({ children }) => {
   const blogList = [
     {
-      img_url: "src/assets/blog-one.png",
+      img_url: "./images/blog-one.png",
       title: "lorem ipsum dolor",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -12,7 +12,7 @@ const BlogProvider = ({ children }) => {
       number_of_comments: 3,
     },
     {
-      img_url: "src/assets/blog-two.png",
+      img_url: "./images/blog-two.png",
       title: "lorem ipsum dolor",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -20,7 +20,7 @@ const BlogProvider = ({ children }) => {
       number_of_comments: 3,
     },
     {
-      img_url: "src/assets/blog-three.png",
+      img_url: "./images/blog-three.png",
       title: "lorem ipsum dolor",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -28,7 +28,7 @@ const BlogProvider = ({ children }) => {
       number_of_comments: 3,
     },
     {
-      img_url: "src/assets/blog-two.png",
+      img_url: "./images/blog-two.png",
       title: "lorem ipsum dolor",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
@@ -36,7 +36,7 @@ const BlogProvider = ({ children }) => {
       number_of_comments: 3,
     },
     {
-      img_url: "src/assets/blog-one.png",
+      img_url: "./images/blog-one.png",
       title: "lorem ipsum dolor",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
