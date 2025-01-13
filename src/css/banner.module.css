@@ -8,7 +8,7 @@
   max-width: 1920px;
   width: 100%;
   padding: 0 150px;
-  background: #ffffff url("./images/banner.png") no-repeat center;
+  background: #ffffff url(./images/banner.png) no-repeat center;
   background-size: cover;
   display: grid;
   align-content: center;
