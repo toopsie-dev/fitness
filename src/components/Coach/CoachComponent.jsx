@@ -5,22 +5,22 @@ const CoachComponent = () => {
   const coaches = [
     {
       name: "noomi smith",
-      icon_url: "src/assets/coach-one.png",
+      icon_url: "./src/assets/coach-one.png",
       job_description: "Crossfit Coach",
     },
     {
       name: "michal mayers",
-      icon_url: "src/assets/coach-two.png",
+      icon_url: "./src/assets/coach-two.png",
       job_description: "Fitness Coach",
     },
     {
       name: "Robert hawkins",
-      icon_url: "src/assets/coach-three.png",
+      icon_url: "./src/assets/coach-three.png",
       job_description: "Body Building",
     },
     {
       name: "annie adams",
-      icon_url: "src/assets/coach-four.png",
+      icon_url: "./src/assets/coach-four.png",
       job_description: "Crossfit Coach",
     },
   ];
