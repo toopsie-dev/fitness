@@ -5,10 +5,28 @@ const AppProvider = ({ children }) => {
   // Condition button link redirection
   const reducer = (state, action) => {
     switch (action.type) {
+      case "banner-section":
+        return (window.location.href = "#banner-section");
+      case "goal-section":
+        return (window.location.href = "#goal-section");
+      case "classes-section":
+        return (window.location.href = "#classes-section");
+      case "coaches-section":
+        return (window.location.href = "#coaches-section");
+      case "about-section":
+        return (window.location.href = "#about-section");
       case "plan-section":
-        return (window.location.href = "#" + action.type);
+        return (window.location.href = "#plan-section");
+      case "testimonial-section":
+        return (window.location.href = "#testimonial-section");
+      case "blog-section":
+        return (window.location.href = "#blog-section");
+      case "contact-section":
+        return (window.location.href = "#contact-section");
+      case "inspirational-section":
+        return (window.location.href = "#inspirational-section");
       default:
-        break;
+        return (window.location.href = "#");
     }
   };
 

@@ -30,7 +30,7 @@
   max-width: 800px;
   width: 100%;
   color: white;
-  z-index: 10;
+  z-index: 1;
 }
 .title-container {
   display: flex;

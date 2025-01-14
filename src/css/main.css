@@ -74,6 +74,28 @@ ul.slick-dots li button {
   transform: scale(1.5);
 }
 
+/* scroll to top */
+.scroll-top-icon {
+  position: fixed;
+  background-color: rgba(255, 0, 0, 0.726);
+  padding: 15px;
+  bottom: 50px;
+  right: 50px;
+  height: 55px;
+  border: 2px solid rgba(255, 255, 255, 0.158);
+  border-radius: 100%;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.scroll-top-icon:hover {
+  background-color: white;
+  border: 2px solid rgba(255, 11, 11, 0.308);
+  cursor: pointer;
+}
+.scroll-top-icon:hover svg {
+  fill: red;
+}
+
 @media only screen and (max-width: 1279px) and (min-width: 769px) {
   button {
     padding: 15px 30px;
@@ -100,5 +122,9 @@ ul.slick-dots li button {
   button {
     padding: 15px 40px;
     font-size: 14px;
+  }
+  .scroll-top-icon {
+    right: 30px;
+    bottom: 30px;
   }
 }

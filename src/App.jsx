@@ -10,6 +10,7 @@ import GoalComponent from "./components/Goal/GoalComponent";
 import InspirationComponent from "./components/InspirationComponent";
 import NavbarComponent from "./components/Navbar/NavbarComponent";
 import PlanComponent from "./components/Plan/PlanComponent";
+import ScrollToTop from "./components/ScrollToTop";
 import TestimonialComponent from "./components/Testimonial/TestimonialComponent";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <ContactComponent />
         <InspirationComponent />
         <FooterComponent />
+        <ScrollToTop />
       </AppProvider>
     </>
   );

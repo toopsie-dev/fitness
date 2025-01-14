@@ -18,7 +18,7 @@ const GoalComponent = () => {
   ];
 
   return (
-    <div className={style["container"]}>
+    <div id="goal-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["goal-container"]}>
           <GoalCardComponent gymGoals={gymGoals} />

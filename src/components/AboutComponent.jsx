@@ -14,7 +14,7 @@ const AboutComponent = () => {
   }, []);
 
   return (
-    <div className={style["container"]}>
+    <div id="about-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["about-container"]}>
           <div className={style["video-container"]}>

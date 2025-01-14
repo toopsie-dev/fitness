@@ -42,7 +42,7 @@ const ClassesComponent = () => {
   ];
 
   return (
-    <div className={style["container"]}>
+    <div id="classes-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["classes-container"]}>
           <div className={style["title-container"]}>

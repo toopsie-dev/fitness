@@ -4,7 +4,7 @@ import FormComponent from "./FormComponent";
 
 const ContactComponent = () => {
   return (
-    <div className={style["container"]}>
+    <div id="contact-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["contact-container"]}>
           <div className={style["content-box"]}>

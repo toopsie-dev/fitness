@@ -26,7 +26,7 @@ const CoachComponent = () => {
   ];
 
   return (
-    <div className={style["container"]}>
+    <div id="coaches-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["coach-container"]}>
           <div className={style["title-container"]}>

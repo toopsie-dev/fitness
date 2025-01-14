@@ -27,7 +27,7 @@ const TestimonialComponent = () => {
   ];
 
   return (
-    <div className={style["container"]}>
+    <div id="testimonial-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["testimonial-container"]}>
           <div className={style["title-container"]}>

@@ -5,7 +5,7 @@ import BlogProvider from "./BlogProvider";
 const BlogComponent = () => {
   return (
     <BlogProvider>
-      <div className={style["container"]}>
+      <div id="blog-section" className={style["container"]}>
         <div className={style["content-width"]}>
           <div className={style["blog-container"]}>
             <div className={style["title-container"]}>

@@ -6,7 +6,7 @@ const BannerComponent = () => {
   const { handleRedirection } = useContext(AppContext);
 
   return (
-    <div className={style["container"]}>
+    <div id="banner-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["banner-container"]}>
           <h3>lorem ipsum dolor</h3>

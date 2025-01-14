@@ -6,7 +6,7 @@ const InspirationComponent = () => {
   const { handleRedirection } = useContext(AppContext);
 
   return (
-    <div className={style["container"]}>
+    <div id="inspirational-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["inspiration-container"]}>
           <div className={style["title-container"]}>
