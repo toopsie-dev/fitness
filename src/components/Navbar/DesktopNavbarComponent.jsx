@@ -5,13 +5,25 @@ import NavbarContext from "../../context/NavbarContext";
 import SidebarComponent from "./SidebarComponent";
 
 const DesktopNavbarComponent = () => {
-  const { hideMenuIcon, setHideSideBar } = useContext(NavbarContext);
+  const { hideMenuIcon, setHideSideBar, isSticky } = useContext(NavbarContext);
+
   const { handleRedirection } = useContext(AppContext);
+
   return (
     <>
-      <nav className="navbar display-flex content-width">
+      <nav
+        className={
+          isSticky
+            ? "sticky display-flex content-width"
+            : "navbar display-flex content-width"
+        }
+      >
         <div className="logo-container">
-          <img src="./images/navbar-logo.png" alt="fitness Logo" />
+          <img
+            className={isSticky ? "shrink-logo" : ""}
+            src="./images/navbar-logo.png"
+            alt="fitness Logo"
+          />
         </div>
         <div className="navbar-item-container display-flex">
           {/* Desktop Navigation Bar */}
