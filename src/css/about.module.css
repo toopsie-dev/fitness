@@ -42,6 +42,7 @@
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  font-weight: 300;
 }
 .title {
   font-size: 50px;

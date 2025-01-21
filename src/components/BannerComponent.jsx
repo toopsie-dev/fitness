@@ -9,11 +9,11 @@ const BannerComponent = () => {
     <div id="banner-section" className={style["container"]}>
       <div className={style["content-width"]}>
         <div className={style["banner-container"]}>
-          <h3>lorem ipsum dolor</h3>
+          <h3>Workout Routines And Plans</h3>
           <h1>Shape Your Future</h1>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna.
+            You can create routines that target all major muscle groups through
+            a mix of strength, flexibility, and cardiovascular workouts.
           </p>
           <button onClick={() => handleRedirection("plan-section")}>
             select a plan

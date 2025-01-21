@@ -10,7 +10,7 @@ const PlanComponent = () => {
           <div className={style["content-width"]}>
             <div className={style["plan-container"]}>
               <div className={style["title-container"]}>
-                <h3 className={style["sub-title"]}>lorem ipsum dolor</h3>
+                <h3 className={style["sub-title"]}>Goals into Reality</h3>
                 <h2 className={style["title"]}>start your dream</h2>
               </div>
               <PlanCardComponent />

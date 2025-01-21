@@ -9,7 +9,7 @@ const BlogComponent = () => {
         <div className={style["content-width"]}>
           <div className={style["blog-container"]}>
             <div className={style["title-container"]}>
-              <h3 className={style["sub-title"]}>lorem ipsum</h3>
+              <h3 className={style["sub-title"]}>Inspiration and Tips</h3>
               <h2 className={style["title"]}>Fitness Blog</h2>
             </div>
             <BlogCardComponent />

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import style from "../css/about.module.css";
@@ -25,14 +26,15 @@ const AboutComponent = () => {
             />
           </div>
           <div className={style["description-container"]}>
-            <h3 className={style["sub-title"]}>lorem ipsum dolor</h3>
+            <h3 className={style["sub-title"]}>Your Partners</h3>
             <h2 className={style["title"]}>about fitness</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est.
+              Achieve your fitness goals in a space designed to inspire and
+              empower. Our gym offers state-of-the-art equipment, expert
+              coaching, and dynamic classes to suit every fitness level. Whether
+              you're building strength, boosting endurance, or finding your
+              inner balance, we're here to support your journey every step of
+              the way.
             </p>
             <button>discover more</button>
           </div>

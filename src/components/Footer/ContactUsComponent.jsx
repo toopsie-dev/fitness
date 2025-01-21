@@ -16,13 +16,15 @@ const ContactUsComponent = ({ hideTitle }) => {
         <li>
           <a href="">
             <img src="./images/Icon material-local-phone.png" alt="" />
-            <span>+99 192 837 4650</span>
+            <span>
+              <a href="tel:+639666907559">+63 966 690 7559</a>
+            </span>
           </a>
         </li>
         <li>
           <a href="">
             <img src="./images/Icon zocial-email.png" alt="" />
-            <span>fitnessgym@email.com</span>
+            <a href="mailto:fitnessgym@email.com">fitnessgym@email.com</a>
           </a>
         </li>
       </ul>

@@ -41,6 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 300;
 }
 .title {
   font-size: 50px;
@@ -74,8 +75,9 @@
 }
 .blog-card h3 {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 20px;
   text-transform: uppercase;
+  font-weight: 300;
 }
 .blog-card p {
   font-size: 14px;

@@ -5,7 +5,7 @@ const BlogProvider = ({ children }) => {
   const blogList = [
     {
       img_url: "./images/blog-one.png",
-      title: "lorem ipsum dolor",
+      title: "How to Build a Sustainable Workout Routine",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       date_upload: "Sept. 1, 2022",
@@ -13,7 +13,7 @@ const BlogProvider = ({ children }) => {
     },
     {
       img_url: "./images/blog-two.png",
-      title: "lorem ipsum dolor",
+      title: "5 Simple Steps to Crush Your Fitness Goals",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       date_upload: "Dec. 14, 2022",
@@ -21,7 +21,7 @@ const BlogProvider = ({ children }) => {
     },
     {
       img_url: "./images/blog-three.png",
-      title: "lorem ipsum dolor",
+      title: "The Ultimate Beginner's Guide to Gym Workouts",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       date_upload: "Feb. 22, 2023",
@@ -29,7 +29,7 @@ const BlogProvider = ({ children }) => {
     },
     {
       img_url: "./images/blog-two.png",
-      title: "lorem ipsum dolor",
+      title: "10 Tips to Stay Motivated on Your Fitness Journey",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       date_upload: "Oct. 5, 2023",
@@ -37,7 +37,7 @@ const BlogProvider = ({ children }) => {
     },
     {
       img_url: "./images/blog-one.png",
-      title: "lorem ipsum dolor",
+      title: "Strength Training vs. Cardio: Which One is Right for You?",
       content:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
       date_upload: "Sept. 7, 2024",

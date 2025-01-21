@@ -4,7 +4,10 @@ const SocialMediaComponent = () => {
   return (
     <div className={style["social-media-container"]}>
       <img src="./images/navbar-logo.png" alt="fitness Logo" />
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+      <p>
+        You can create routines that target all major muscle groups through a
+        mix of strength, flexibility, and cardiovascular workouts.
+      </p>
       <ul className={style["social-icons"]}>
         <li>
           <a href="">
